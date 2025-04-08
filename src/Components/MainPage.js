@@ -10,16 +10,16 @@ function MainPage() {
       <div className="MainPage">
             <div className="Main-text-background">
               <div className="Main-text">
-                <h1 className="Main-title">HackMerced X @ UC Merced</h1>
+                <h1 className="Main-title">HackMerced XI @ UC Merced</h1>
                 <p className="Main-subtitle">
-                  Join us at HackMerced March 7th 5:00pm to March 9th 12:00pm!
+                  Ever wanted to run a hackathon? Join our team below!
                   <br/>
-                  With your team create innovative projects,
+                  Work with fellow engineers on a robust 200 person event!
                   <br/>
-                  Explore our workshops, connect with like minded students, and win prizes!
+                  Click on the link below to apply for the team!
                 </p>
-                <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSerxYTLPoERBERkjr63okZMrOGDU1Lgw1aOnjWGlhFOFXHN4w/viewform?usp=dialog">
-                  <button className="registerButton2">Register Now!</button>
+                <a className="registerButton2Stars" href="https://docs.google.com/forms/d/e/1FAIpQLSdvJNPf1waAtIJPR_gGSw3Ve9H7l1S92e4DXFmjF1R2zJCp4g/viewform?usp=dialog">
+                  <button className="registerButton2">Apply Now!</button>
                   <div class="starWrapper">
                     <p class="star1" id="star">★</p>
                     <p class="star2" id="star">★</p>
