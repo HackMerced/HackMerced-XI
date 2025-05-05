@@ -32,7 +32,7 @@ function Footer() {
                 Merced, CA 95348
                 <br/>
                 <br/>
-                For inquiries, please contact Jet Lin at <a href="mailto:jet.lin@hackmerced.com">jet.lin@hackmerced.com</a>
+                For inquiries, please contact Shyam Gupta at <a href="mailto:sgupta57@ucmerced.edu">sgupta57@ucmerced.edu</a>
             </div>
         </div>
        
