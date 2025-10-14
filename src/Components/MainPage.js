@@ -27,7 +27,7 @@ function MainPage() {
                     <p class="starBurst3">🌟</p>
                   </div>
                 </p>
-                <button href="https://forms.gle/oTLNoYy3xV6YWXQV7" target="_blank" rel="noopener noreferrer" class="registerButton2">Sign up for Hack Day</button>
+                <a href="https://forms.gle/oTLNoYy3xV6YWXQV7" target="_blank" rel="noopener noreferrer"><button class="registerButton2">Sign up for Hack Day</button></a>
 
                 <img src={HackMercedTower} className='Main-hackmerced-tower' alt='HackMerced X Tower'/>
                 <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>
