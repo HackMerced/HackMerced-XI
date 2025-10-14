@@ -14,7 +14,7 @@ function MainPage() {
                 <h1 className="Main-title">Hack Day @ UC Merced</h1>
                 <p className="Main-subtitle">
                   {/* Coming in Spring 2026!  */}
-                  November 8, from 8:00am to 8:00pm
+                  November 8, Saturday, from 8:00am to 8:00pm
                   <br/>
                   <div class="starWrapper">
                     <p class="star1" id="star">★</p>
