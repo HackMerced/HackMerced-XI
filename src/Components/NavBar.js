@@ -9,7 +9,7 @@ function NavBar() {
         <Hamburger />
         <ul className="nav-items">
           <li><a href="/"><button className="button" id="sponsors-button">Home</button></a></li>
-          <li><a href="https://ucmerced.az1.qualtrics.com/jfe/form/SV_bd9SUxJc0EjVhoq"><button className="button" id="mentor-button">Becme a Judge</button></a></li>
+          <li><a href="https://ucmerced.az1.qualtrics.com/jfe/form/SV_bd9SUxJc0EjVhoq"><button className="button" id="mentor-button">Become a Judge</button></a></li>
           {/* <li><a href="https://live.hackmerced.com/"><button className="button" id="hackmerced-live-button">Live</button></a></li> */}
           <li><Link to="/aboutus"><button className="button" id="about-us-button">About Us</button></Link></li>
           <li><Link to="/contactus"><button className="button" id="contact-us-button">Contact Us</button></Link></li>
