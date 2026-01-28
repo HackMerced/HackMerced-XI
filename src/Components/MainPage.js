@@ -1,6 +1,5 @@
 import React from 'react';
-// import HackMercedTower from '../Assets/HackMercedTower.png';
-import HackMercedTower from '../Assets/home_page.png';
+import HackMercedTower from '../Assets/HackMercedTower.png';
 
 
 function MainPage() {
@@ -9,11 +8,9 @@ function MainPage() {
   // }
     return (
       <div className="MainPage">
-        <div className="Main-Container">
-          <img src={HackMercedTower} className='Main-hackmerced-tower' alt='HackMerced X Tower'/>
-          <div className="Main-text-background">
-            <div className="Main-text">
-              <h1 className="Main-title">HackMerced XI @ UC Merced</h1>
+            <div className="Main-text-background">
+              <div className="Main-text">
+                <h1 className="Main-title">HackMerced XI @ UC Merced</h1>
                 {/* <h1 className="Main-title">Hack Day @ UC Merced</h1> */}
                 <p className="Main-subtitle">
                   {/* Coming in Spring 2026!  */}
@@ -35,17 +32,7 @@ function MainPage() {
                 <img src={HackMercedTower} className='Main-hackmerced-tower' alt='HackMerced X Tower'/>
                 <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>
                 </div>
-                <div class="starBursts">
-                  <p class="starBurst1">✨</p>
-                  <p class="starBurst2">⭐️</p>
-                  <p class="starBurst3">🌟</p>
-                </div> 
-              </p>
-
-              <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>
-              </div>
-          </div>
-        </div>
+            </div>
       </div>
     );
   }
