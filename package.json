@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build && cp build/index.html build/404.html",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "gh-pages": "^6.2.0",
     "react-scripts": "^5.0.1"
   }
