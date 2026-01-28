@@ -10,11 +10,11 @@ function MainPage() {
       <div className="MainPage">
             <div className="Main-text-background">
               <div className="Main-text">
-                {/* <h1 className="Main-title">HackMerced XI @ UC Merced</h1> */}
-                <h1 className="Main-title">Hack Day @ UC Merced</h1>
+                <h1 className="Main-title">HackMerced XI @ UC Merced</h1>
+                {/* <h1 className="Main-title">Hack Day @ UC Merced</h1> */}
                 <p className="Main-subtitle">
                   {/* Coming in Spring 2026!  */}
-                  November 8, Saturday, from 8:00am to 8:00pm
+                  March 6 4:00pm to March 7 12:00pm in COB1 105!
                   <br/>
                   <div class="starWrapper">
                     <p class="star1" id="star">★</p>
@@ -27,7 +27,7 @@ function MainPage() {
                     <p class="starBurst3">🌟</p>
                   </div>
                 </p>
-                <a href="https://forms.gle/oTLNoYy3xV6YWXQV7" target="_blank" rel="noopener noreferrer"><button class="registerButton2">Sign up for Hack Day</button></a>
+                <a href="https://ucmerced.az1.qualtrics.com/jfe/form/SV_d4LUVvFSuQu6ChM" target="_blank" rel="noopener noreferrer"><button class="registerButton2">Sign up for HackMerced XI</button></a>
 
                 <img src={HackMercedTower} className='Main-hackmerced-tower' alt='HackMerced X Tower'/>
                 <p className="Main-footer">Have questions? Email <a className="Main-footerlink" href="mailto:general@hackmerced.com"> general@hackmerced.com <p className="emailEmoji"><span role="img" aria-label="email">📧</span></p></a></p>

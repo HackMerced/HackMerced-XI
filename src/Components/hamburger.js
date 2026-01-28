@@ -40,7 +40,7 @@ const Hamburger = () => {
                 <div className="menu-buttons">
                     <ul>
                         <li><Link to="/"><button className="burger-button" id="burger-home" onClick={closeMenu}>Home</button></Link></li> 
-                        <li><Link to="https://docs.google.com/forms/d/e/1FAIpQLSdvJNPf1waAtIJPR_gGSw3Ve9H7l1S92e4DXFmjF1R2zJCp4g/viewform?usp=dialog"><button className="burger-button" id="burger-home" onClick={closeMenu}>Apply Now!</button></Link></li> 
+                        <li><Link to="https://ucmerced.az1.qualtrics.com/jfe/form/SV_d4LUVvFSuQu6ChM"><button className="burger-button" id="burger-home" onClick={closeMenu}>Apply Now!</button></Link></li> 
                         <li><Link to="/aboutus"><button className="burger-button" id="burger-about" onClick={closeMenu}>About US</button></Link></li> 
                         <li><Link to="/contactus"><button className="burger-button" id="burger-contact" onClick={closeMenu}>Contact Us</button></Link></li> 
                         <li><Link to="/sponsorus"><button className="burger-button" id="burger-sponsor" onClick={closeMenu}>Sponsor Us</button></Link></li>
