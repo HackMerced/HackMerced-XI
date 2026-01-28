@@ -12,6 +12,7 @@ import { Grid } from "@mui/material";
 // import Lauren from '../Assets/Team/lauren.jpg';
 // import Derek from '../Assets/Team/derek.JPG';
 
+
 import Jet from '../Assets/Team/HM10Team/Jet.webp'
 import Akhil from '../Assets/Team/HM10Team/akhil.JPG'
 import Shyam from '../Assets/Team/HM10Team/shyam.JPG'
