@@ -2,16 +2,44 @@
 // import this everywhere, need to look into for a fix
 import React from 'react';
 // import TeamPhoto from '../Assets/team-photo.JPG';
-import TeamPhoto from '..//Assets/Team/HM10Team/Team2.webp';
+// import TeamPhoto from '..//Assets/Team/HM10Team/Team2.webp';
+import GreenHill from '../Assets/green_hill.png';
 
 import { Card } from '@mui/material';
-
 
 export default function AboutHackMerced(){
     return(
         <div className="About-HM">
-            <div className="About-HM-Container">
-                <h2 className='About-HM-Title'>About HackMerced</h2>
+            <div className="About-HM-Banner" style={{
+                position: 'relative',
+                width: '100%',
+                overflow: 'hidden'
+            }}>
+                <img 
+                    src={GreenHill} 
+                    alt="Green Hill Banner" 
+                    style={{
+                        width: '100%',
+                        height: 'auto',
+                        display: 'block'
+                    }}
+                />
+                <div style={{
+                    position: 'absolute',
+                    top: '80px',
+                    left: 0,
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                    <h2 className='About-HM-Title' style={{
+                        margin: 0,
+                        padding: 0,
+                        fontSize: '3rem'
+                    }}>About HackMerced</h2>
+                </div>
+            </div>
+            <div className="Team-container">
                 <div className="About-HM-Contents"> 
                     <Card className="About-HM-Desc">
                         <div className="About-HM-Text">HackMerced is a 36-hour hackathon hosted at the
@@ -23,12 +51,12 @@ export default function AboutHackMerced(){
                         environment that showcases the creativity and innovation
                         culminating in the San Joaquin Valley.
                         <br/><br/>
-                        Celebrating 10 years of HackMerced! View our previous iterations here: <a href="https://archives.hackmerced.com/">HackMerced Archives</a>
+                        Celebrating 11 years of HackMerced! View our previous iterations here: <a href="https://archives.hackmerced.com/">HackMerced Archives</a>
                         </div>
                     </Card>
-                    <img className='Team-photo' src={TeamPhoto} alt="HackMerced Team"/>
                 </div>
-            </div>
+</div>
+
         </div>
     )
 }
