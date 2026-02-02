@@ -36,9 +36,9 @@
   
 
   /*HackMerced X Colors*/
-  --primary-purple: #663399;
-  --primary-orange: #C0593A; /*C0593A, FF7252*/
-  --lighter-orange: #CF8139; /*CF8139, FFA052*/
+  --primary-purple: #263b49; /* #663399; */
+  --primary-orange: #307a74; /*C0593A, FF7252*/
+  --lighter-orange: #bbd18d; /*CF8139, FFA052*/
 
   /* --main-page-background: #422162; */
   --main-page-background: #263b49;
@@ -58,11 +58,11 @@
   --button-hover-gradient-2: #FF7252; /*who made the register button */
 
   --main-white: white; /*not changign this*/
-  --orange-font-color: #FFA052;
+  --orange-font-color: #a0cdf7;
 
-  --main-shadows-1: rgb(49, 49, 49);
-  --main-shadows-2: rgba(37, 18, 18);
-  --secondary-shadows: rgba(143, 26, 26);
+  --main-shadows-1: rgb(43, 43, 48);
+  --main-shadows-2: #306892;
+  --secondary-shadows: #234e6e;
 
   --accordian-border: #E0B8FF;
 
