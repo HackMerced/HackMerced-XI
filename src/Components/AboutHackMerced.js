@@ -1,5 +1,4 @@
-// import React from 'react'; // seems really redundant to have to
-// import this everywhere, need to look into for a fix
+// import React from 'react'; // seems really redundant to have to import this everywhere, need to look into for a fix
 import React from 'react';
 // import TeamPhoto from '../Assets/team-photo.JPG';
 // import TeamPhoto from '..//Assets/Team/HM10Team/Team2.webp';
