@@ -40,15 +40,10 @@
   --primary-orange: #C0593A; /*C0593A, FF7252*/
   --lighter-orange: #CF8139; /*CF8139, FFA052*/
 
-  /* --main-page-background: #422162; */
-  --main-page-background: #263b49;
-  --glow-color: #65bbc0; 
-
   --secondary-red: #993392; /*linear gradient on navbar*/
-  /* --secondary-purple: #663399; */
-  --secondary-purple: color-mix(in oklab, #12785b, blue 0%);
-  --secondary-red: color-mix(in oklab, #12785b, blue 30%);
+  --secondary-purple: #663399;
 
+  --main-page-background: #422162;
 
   --primary-purple-transparent: #ff9fffb9;
 
@@ -58,7 +53,7 @@
   --button-hover-gradient-2: #FF7252; /*who made the register button */
 
   --main-white: white; /*not changign this*/
-  --orange-font-color: #FFA052;
+  --orange-font-color: #FFA052; 
 
   --main-shadows-1: rgb(49, 49, 49);
   --main-shadows-2: rgba(37, 18, 18);
@@ -373,45 +368,34 @@ a {
 }
 
 .Main-hackmerced-tower{
-  max-width: 50%;
-}
-
-.Main-Container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100vw;
-  height: 90vh;
-  transform: scale(90%);
-  justify-content: space-between;
-  gap: 4rem;
-}
-
-.Main-Container > *{
-  filter: drop-shadow(0px 0px 40px var(--glow-color));
-  max-height: 100%;
+  /* border: red solid 3px; */
+  position: absolute;
+  top: 20%;
+  left: 3rem;
+  z-index: -1;
 }
 
 .Main-text-background{
-  /* width: 50%; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+  background-repeat: round;
+  background-size: 100% 90%;
+  /* filter: drop-shadow(0px 0px 40px #FF5E54); */
+  filter: drop-shadow(0px 0px 40px var(--orange-font-color));
+  /* background-image: url('./Assets/background.png') ; */
+  background-image: url('./Assets/NewMainPageBackground.svg') ;
+  transform: scale(90%);
 }
-
 .Main-text{
   flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: var(--lighter-orange); */
-  background-color: #12785b; /* temporary */
-  border-radius: 3rem;
-  padding: 4rem;
+  height: inherit;
+  z-index: 2;
 }
 .Main-title{
-  text-align: center;
+  /* color:#FFFFFF; */
   color: var(--main-white);
   z-index: 2;
   transition-duration: 0.4s;
@@ -431,7 +415,7 @@ a {
   transition-duration: 1s;
   transform: scale(103%);
   /* filter: drop-shadow(0px 0px 10px #FF5E54) saturate(150%); */
-  filter: drop-shadow(0px 0px 10px var(--glow-color)) saturate(150%);
+  filter: drop-shadow(0px 0px 10px var(--orange-font-color)) saturate(150%);
 }
 .Main-subtitle{
   /* color:#FFFFFF; */
@@ -839,10 +823,6 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     overflow-y: hidden;
     display: block;
   }
-  .Main-Container {
-    align-items: center;
-  }
-
   .Main-video{
     padding-left: 0;
     position:sticky;
@@ -856,18 +836,13 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
   }
   .Main-hackmerced-tower{
     opacity: 20%;
-    position: absolute;
-    z-index: 1;
   }
   .Main-text-background{
     padding: inherit;
     font-size: smaller;
-    max-width: 100%;
   }
   .Main-text{
     padding: 2rem;
-    margin: 1rem;
-    max-width: 100%;
   }
 
   .title-flair{
