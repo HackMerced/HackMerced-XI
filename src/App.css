@@ -42,7 +42,7 @@
 
   /* --main-page-background: #422162; */
   --main-page-background: #263b49;
-  --glow-color: #65bbc0; 
+  --glow-color: #4f888b; 
 
   --secondary-red: #993392; /*linear gradient on navbar*/
   /* --secondary-purple: #663399; */
@@ -170,7 +170,7 @@ a {
   min-height: 10vh;
   width: 10vw;
   margin-top:5vh;
-  
+
 }
 .Sponsors{
   height:0;
@@ -179,8 +179,7 @@ a {
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
-  /* color:white; */
-  color: var(--main-white);
+  color:var(--main-page-background);
   height:fit-content;
   max-width: 100vw;
   align-items: center;
@@ -197,7 +196,7 @@ a {
   position: absolute;
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.2em;
   margin-right: 10vw;
   text-align: left;
@@ -406,7 +405,7 @@ a {
   align-items: center;
   justify-content: center;
   /* background-color: var(--lighter-orange); */
-  background-color: #12785b; /* temporary */
+  background-color: #127871; /* temporary */
   border-radius: 3rem;
   padding: 4rem;
 }
