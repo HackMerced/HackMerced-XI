@@ -36,13 +36,13 @@
   
 
   /*HackMerced X Colors*/
-  --primary-purple: #663399;
-  --primary-orange: #C0593A; /*C0593A, FF7252*/
-  --lighter-orange: #CF8139; /*CF8139, FFA052*/
+  --primary-purple: #263b49; /* #663399; */
+  --primary-orange: #307a74; /*C0593A, FF7252*/
+  --lighter-orange: #bbd18d; /*CF8139, FFA052*/
 
   /* --main-page-background: #422162; */
   --main-page-background: #263b49;
-  --glow-color: #65bbc0; 
+  --glow-color: #4f888b; 
 
   --secondary-red: #993392; /*linear gradient on navbar*/
   /* --secondary-purple: #663399; */
@@ -58,11 +58,11 @@
   --button-hover-gradient-2: #FF7252; /*who made the register button */
 
   --main-white: white; /*not changign this*/
-  --orange-font-color: #FFA052;
+  --orange-font-color: #a0cdf7;
 
-  --main-shadows-1: rgb(49, 49, 49);
-  --main-shadows-2: rgba(37, 18, 18);
-  --secondary-shadows: rgba(143, 26, 26);
+  --main-shadows-1: rgb(43, 43, 48);
+  --main-shadows-2: #306892;
+  --secondary-shadows: #234e6e;
 
   --accordian-border: #E0B8FF;
 
@@ -91,9 +91,15 @@ a {
   color: var(--main-white);
 }
 
+.About-HM-Text{
+  background-color: #1c2e3a;
+  filter: drop-shadow(0px 0px 10px var(--orange-font-color)) saturate(150%);
+  border-radius: 20px;
+}
+
 .Tracks, .About-HM{
   /* background: radial-gradient(50% 50% at 50% 50%, #CF8139, #C0593A, #342153); */
-  background: radial-gradient(50% 50% at 50% 50%, var(--lighter-orange), var(--primary-orange), var(--primary-purple));
+  background: var(--main-page-background);
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
@@ -103,7 +109,7 @@ a {
   max-width: 100vw;
   align-items: center;
   text-align: center;
-  padding-bottom: 10vh ;
+  padding-bottom: 2vh ;
   
 }
 .Tracks-title, .About-HM-Title, .Hacktually-title {
@@ -170,7 +176,7 @@ a {
   min-height: 10vh;
   width: 10vw;
   margin-top:5vh;
-  
+
 }
 .Sponsors{
   height:0;
@@ -179,8 +185,7 @@ a {
   background-blend-mode: overlay;
   mix-blend-mode: normal;
   backdrop-filter: blur(6px);
-  /* color:white; */
-  color: var(--main-white);
+  color:var(--main-page-background);
   height:fit-content;
   max-width: 100vw;
   align-items: center;
@@ -197,7 +202,7 @@ a {
   position: absolute;
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.2em;
   margin-right: 10vw;
   text-align: left;
@@ -406,7 +411,7 @@ a {
   align-items: center;
   justify-content: center;
   /* background-color: var(--lighter-orange); */
-  background-color: #12785b; /* temporary */
+  background-color: #127871; /* temporary */
   border-radius: 3rem;
   padding: 4rem;
 }
@@ -680,7 +685,6 @@ a {
 .Team-container{
   min-height: 70vh;
   width: 80vw;
-  top: 4rem;
   position: relative;
 }
 .title{

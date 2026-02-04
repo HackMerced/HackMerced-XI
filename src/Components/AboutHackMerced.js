@@ -5,7 +5,7 @@ import React from 'react';
 // import TeamPhoto from '..//Assets/Team/HM10Team/Team2.webp';
 import GreenHill from '../Assets/green_hill.png';
 
-import { Card } from '@mui/material';
+//import { Card } from '@mui/material';
 
 export default function AboutHackMerced(){
     return(
@@ -35,14 +35,18 @@ export default function AboutHackMerced(){
                     <h2 className='About-HM-Title' style={{
                         margin: 0,
                         padding: 0,
-                        fontSize: '3rem'
+                        fontSize: '4rem'
                     }}>About HackMerced</h2>
                 </div>
             </div>
-            <div className="Team-container">
-                <div className="About-HM-Contents"> 
-                    <Card className="About-HM-Desc">
-                        <div className="About-HM-Text">HackMerced is a 36-hour hackathon hosted at the
+                <div className="About-HM-Text" style={{
+                    marginTop: 100,
+                    margin: 100,
+                    marginBotton:0,
+                    paddingTop: 60,
+                    paddingBottom: 60,
+                    padding: 40
+                }}>HackMerced is a 36-hour hackathon hosted at the
                         University of California, Merced by an organization
                         comprised of UC Merced students and alumni. Students
                         from all schools and backgrounds, regardless of prior
@@ -52,10 +56,7 @@ export default function AboutHackMerced(){
                         culminating in the San Joaquin Valley.
                         <br/><br/>
                         Celebrating 11 years of HackMerced! View our previous iterations here: <a href="https://archives.hackmerced.com/">HackMerced Archives</a>
-                        </div>
-                    </Card>
-                </div>
-</div>
+                    </div>
 
         </div>
     )
