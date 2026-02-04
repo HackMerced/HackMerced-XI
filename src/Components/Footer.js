@@ -8,13 +8,19 @@ function Footer() {
     return (
       <div className="Footer-Comp">
         <div className="Footer-container">
+          
             <div className="Footer-socialmedia">
            
             <a style={{ textDecoration: 'none' }} href="http://instagram.com/hackmerced"><img className='Footer-Logo' src={Instagram} alt="Instagram logo"/>Instagram<br/></a>
-            <br/>
+            </div>
+            <div className="Footer-socialmedia">
+           
             <a style={{ textDecoration: 'none' }} href="https://www.facebook.com/hackmerced"><img className='Footer-Logo' src={Facebook} alt="Facebook logo"/>Facebook<br/></a>
-            <br/>
-            <a style={{ textDecoration: 'none' }} href="https://hackmerced.com/discord"><img className='Footer-Logo' src={Discord} alt="Discord logo"/>Discord<br/></a>
+            </div>
+            <div className="Footer-socialmedia">
+           
+             <a style={{ textDecoration: 'none' }} href="https://hackmerced.com/discord"><img className='Footer-Logo' src={Discord} alt="Discord logo"/>Discord<br/></a>
+            
             </div>
             <img className='Footer-Vector' src={Line} alt="vector"/>
             <div className="Footer-description">
@@ -32,7 +38,7 @@ function Footer() {
                 Merced, CA 95348
                 <br/>
                 <br/>
-                For inquiries, please contact Shyam Gupta at <a href="mailto:sgupta57@ucmerced.edu">sgupta57@ucmerced.edu</a>
+                For inquiries, please contact Megan Ciraulo at <a href="mailto:mciraulo@ucmerced.edu">mciraulo@ucmerced.edu</a>
             </div>
         </div>
        

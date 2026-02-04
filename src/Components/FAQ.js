@@ -67,7 +67,7 @@ function FAQ() {
             <FAQAccordion title='How do I win free swag?' description='This year, HackMerced is proud to collaborate with Badger, an RFID-based attendance tracking system. When you participate in workshops or activities, simply scan the badge you obtain at check-in to earn points that can be redeemed for swag. Track points through live.hackmerced.com'/>
           </Grid2>
           <Grid2 item size={6}>
-            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsinPEX__G-Jr2kUgGIHNpwZyTA3VWYx4NPGU8X320Xa47rg/viewform">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Jet Lin at jlin276@ucmerced.edu</>}/>
+            <FAQAccordion title='Can I apply to judge or mentor?' description={<>If you are interested in mentoring, please apply using {<a href="https://ucmerced.az1.qualtrics.com/jfe/form/SV_bd9SUxJc0EjVhoq">this form</a>}. If you would like to judge a track, please consider sponsoring us by contacting Megan Ciraulo at mciraulo@ucmerced.edu</>}/>
           </Grid2>
           {/* <Grid2 item size={6}>
             <FAQAccordion title='When and where is the opening ceremony?' description={<>Our Check-in is on March 8th, 4:00pm.  Opening Ceremony is March 8th, 5:00pm. Both at UC Merced in building COB1 102. It will last about an hour. Hacking begins at 6pm for 36 hours. See a maps of the school and the buildings {<a href="https://registrar.ucmerced.edu/resources/maps">here</a>}</>}/>
@@ -83,7 +83,7 @@ function FAQ() {
           </FAQAccordion>
           </Grid2>
           <Grid2 item size={6}>
-          <FAQAccordion title='Will there be any places to sleep or will I need to book a hotel?' description='We will be have rooms COB1 110 and COB1 114 as designated sleep rooms during the event. You will see exact times in our Live Page!'>
+          <FAQAccordion title='Will there be any places to sleep or will I need to book a hotel?' description='We will be have rooms COB1 110 as a designated sleep room during the event. You will see exact times in our Live Page!'>
           </FAQAccordion>
           </Grid2>
           <Grid2 item size={6}>

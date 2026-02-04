@@ -650,7 +650,7 @@ a {
 .Footer-Comp{
   position: relative;
   display: flex;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   /* color: white; */
   color: var(--main-white);
   font-family: var(--font-family);
@@ -658,12 +658,14 @@ a {
   font-weight: 400;
   font-size: 0.9em;
   max-width: 100vw;
-  min-height: 33vh;
+  min-height: 30vh;
   /* background: linear-gradient(180deg, #CC7F3A, #C0593A, #342153); */
-  background: linear-gradient(180deg, var(--lighter-orange), var(--primary-orange), var(--primary-purple));
+  background: #24645f;
 }
 .Footer-container{
-  padding-top: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 8vh;
+  height: 20vh;
   display: flex;
 }
 .Footer-socialmedia{
@@ -672,14 +674,17 @@ a {
   
 }
 .Footer-Vector{
-  padding-left: 40vw;
+  padding-left: 30vw;
+  margin-top: 2rem;
 }
 .Footer-Logo{
   padding-right: 1em;
+  margin-top: 4rem;
 }
 .Footer-description{
  padding-left: 1.5em;
   text-align: left;
+  width: 50rem;  
 }
 /*TEAM SECTION*/
 .Team-container{
