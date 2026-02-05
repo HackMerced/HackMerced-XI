@@ -7,7 +7,7 @@ const ContactPage = () => {
     <div
       style={{
         background:
-          'linear-gradient(to bottom, #342153 0%, #C0593A 50%, #D77B26 100%)'
+          'linear-gradient(to bottom, #263b49 0%, #307a74 50%, #bbd18d 100%)'
       }}
     >
       <Grid

@@ -44,18 +44,18 @@
   --main-page-background: #263b49;
   --glow-color: #4f888b; 
 
-  --secondary-red: #993392; /*linear gradient on navbar*/
+  --secondary-red: #334799; /*linear gradient on navbar*/
   /* --secondary-purple: #663399; */
   --secondary-purple: color-mix(in oklab, #12785b, blue 0%);
   --secondary-red: color-mix(in oklab, #12785b, blue 30%);
 
 
-  --primary-purple-transparent: #ff9fffb9;
+  --primary-purple-transparent: #9fc4ffb9;
 
   --link-color: #C0FCFF;
   --link-color-2: #C0FCFF; /*i think i prefer this one*/
-  --button-hover: #FFA052; /*jet- i dont really like this color lol i thikn this was a tmepoarary color that never got changed*/
-  --button-hover-gradient-2: #FF7252; /*who made the register button */
+  --button-hover: #52c5ff; /*jet- i dont really like this color lol i thikn this was a tmepoarary color that never got changed*/
+  --button-hover-gradient-2: #62c4e8; /*who made the register button */
 
   --main-white: white; /*not changign this*/
   --orange-font-color: #a0cdf7;
@@ -64,7 +64,7 @@
   --main-shadows-2: #306892;
   --secondary-shadows: #234e6e;
 
-  --accordian-border: #E0B8FF;
+  --accordian-border: #b8c5ff;
 
   --hacktually-infobox: rgba(255, 255, 255, 0.5); /*have not changed these*/
   --hacktually-info: rgba(255, 255, 255, 0.2);
