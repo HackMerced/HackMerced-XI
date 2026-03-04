@@ -648,43 +648,43 @@ a {
   }
 }
 .Footer-Comp{
-  position: relative;
   display: flex;
-  padding-bottom: 0rem;
   /* color: white; */
   color: var(--main-white);
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 0.9em;
-  max-width: 100vw;
-  min-height: 30vh;
   /* background: linear-gradient(180deg, #CC7F3A, #C0593A, #342153); */
   background: #24645f;
 }
 .Footer-container{
-  padding-top: 2vh;
-  padding-bottom: 8vh;
-  height: 20vh;
+  width: 100%;
+  padding: 1.5rem;
   display: flex;
+}
+.Footer-container>*{
+  width: 100%;
+}
+.Footer-container>:first-child{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Footer-container>:last-child{
+  display: flex;
+}
+.Footer-socialmedia>a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Footer-socialmedia{
   text-align: left;
-  padding-left: 10%;
-  
 }
 .Footer-Vector{
-  padding-left: 30vw;
+  padding-right: 2rem;
   margin-top: 2rem;
-}
-.Footer-Logo{
-  padding-right: 1em;
-  margin-top: 4rem;
-}
-.Footer-description{
- padding-left: 1.5em;
-  text-align: left;
-  width: 50rem;  
 }
 /*TEAM SECTION*/
 .Team-container{
@@ -1000,14 +1000,17 @@ MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-ro
     text-align: left;
   }
   .Footer-Vector{
-    padding-left: 3em;
-  }
-  .Footer-socialmedia{
-    padding-left: 1.5em;
+    padding: 0;
   }
   .Footer-container{
     padding-top: 3vh;
   }
+  .Footer-container>:first-child{
+  flex-direction: column;
+}
+  .Footer-container>:nth-child(2){
+  display: none;
+}
   .Footer-description{
     padding-left: 2em;
   }
