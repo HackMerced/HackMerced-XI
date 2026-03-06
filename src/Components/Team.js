@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid } from "@mui/material";
 // import Jet from '../Assets/Team/jet.JPG';
 // import Porfi from '../Assets/Team/porfi.JPG';
 // import Alisson from '../Assets/Team/alisson.JPG';
@@ -71,19 +70,18 @@ function Team() {
         <div className='Team' id="team">
             <div className="Team-container">
                 <h2 className="title">our team</h2>
-                <Grid container spacing={8} className="Team-Flex"
-                    justifyContent="start">
+                <div>
 
                     {teamMembers.map((teamMember, index) => {
                         return (
-                            <Grid item xs={3} className="Team-individual" key={index}>
+                            <div className="Team-individual" key={index}>
                                 <a href={teamMember.linkedIn}><img className="Team-Img" src={teamMember.imgSrc} alt="Avatar" /></a>
                                 <div className="Team-Name">{teamMember.name}</div>
-                            </Grid>
+                            </div>
                         )
                     })}
 
-                </Grid>
+                </div>
             </div>
         </div>
     );
