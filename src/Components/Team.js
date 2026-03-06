@@ -65,7 +65,7 @@ function Team() {
         { name: 'Ali Mehry', imgSrc: Ali, linkedIn: "https://github.com/ahmadalimehry" },
         { name: 'Alondra Valdez', imgSrc: Alondra, linkedIn: "https://www.linkedin.com/in/alondra-valdez-080032357/" },
         { name: 'Sohdai Yokokawa', imgSrc: Sohdai, linkedIn: "https://github.com/Syoko3" },
-        { name: 'Roma Alimchandani', imgSrc: Roma, linkedIn: "https://www.linkedin.com/in/romaalimchandani/" },
+        { name: 'Roma Alimchandani', imgSrc: Roma, linkedIn: "https://github.com/romaalimchandani" },
     ]
 
     return (
