@@ -14,7 +14,7 @@ function Tracks() {
         <div className="Tracks" id="tracks">
             <h2 className="Tracks-title">HackMerced XI Tracks</h2>
             <div className="Tracks-Flex">
-                {["Health for Social Good"].map((title) => (
+                {["Health For Social Good"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
@@ -22,7 +22,7 @@ function Tracks() {
                         <img
                             className="Track-Logo"
                             src={Health}
-                            alt="Health for Social Good"
+                            alt="Health For Social Good"
                         />
                         <h1 className="Track-Name">{title}</h1>
                         <div className="Track-Text"></div>
