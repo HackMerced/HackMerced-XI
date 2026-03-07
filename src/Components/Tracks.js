@@ -3,39 +3,40 @@ import { Card } from "@mui/material";
 //import Question from "../Assets/question.svg";
 // import Health from "../Assets/health.svg";
 // import Ag from "../Assets/ag.svg"
-// import Bus from "../Assets/bus.svg";
+import Bus from "../Assets/bus.svg";
 import Question from "../Assets/question.svg";
 // import Health from "../Assets/question.svg";
 // import Ag from "../Assets/question.svg"
 // import Bus from "../Assets/question.svg";
+import Cybersecurity from '../Assets/support_1.svg';
 function Tracks() {
     return (
         <div className="Tracks" id="tracks">
             <h2 className="Tracks-title">HackMerced XI Tracks</h2>
             <div className="Tracks-Flex">
-                {["Coming Soon"].map((title) => (
+                {["Business & Finance"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
                     >
                         <img
                             className="Track-Logo"
-                            src={Question}
-                            alt="Question mark"
+                            src={Bus}
+                            alt="Business & Finance"
                         />
                         <h1 className="Track-Name">{title}</h1>
                         <div className="Track-Text"></div>
                     </Card>
                 ))}
-                {["Coming Soon"].map((title) => (
+                {["Cybersecurity"].map((title) => (
                     <Card
                         style={{ borderRadius: "30px"}}
                         className="Track-Card"
                     >
                         <img
                             className="Track-Logo"
-                            src={Question}
-                            alt="Question mark"
+                            src={Cybersecurity}
+                            alt="Cybersecurity"
                         />
                         <h1 className="Track-Name">{title}</h1>
                         <div className="Track-Text"></div>

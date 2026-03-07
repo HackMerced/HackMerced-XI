@@ -8,20 +8,25 @@ function Footer() {
     return (
       <div className="Footer-Comp">
         <div className="Footer-container">
-          
+          <div>
             <div className="Footer-socialmedia">
            
-            <a style={{ textDecoration: 'none' }} href="http://instagram.com/hackmerced"><img className='Footer-Logo' src={Instagram} alt="Instagram logo"/>Instagram<br/></a>
+            <a style={{ textDecoration: 'none' }} href="http://instagram.com/hackmerced"><div><img className='Footer-Logo' src={Instagram} alt="Instagram logo"/></div>Instagram<br/></a>
             </div>
             <div className="Footer-socialmedia">
            
-            <a style={{ textDecoration: 'none' }} href="https://www.facebook.com/hackmerced"><img className='Footer-Logo' src={Facebook} alt="Facebook logo"/>Facebook<br/></a>
+            <a style={{ textDecoration: 'none' }} href="https://www.facebook.com/hackmerced"><div><img className='Footer-Logo' src={Facebook} alt="Facebook logo"/></div>Facebook<br/></a>
             </div>
             <div className="Footer-socialmedia">
            
-             <a style={{ textDecoration: 'none' }} href="https://hackmerced.com/discord"><img className='Footer-Logo' src={Discord} alt="Discord logo"/>Discord<br/></a>
+             <a style={{ textDecoration: 'none' }} href="https://hackmerced.com/discord"><div><img className='Footer-Logo' src={Discord} alt="Discord logo"/></div>Discord<br/></a>
             
             </div>
+          </div>
+          
+          <div></div>
+
+          <div>
             <img className='Footer-Vector' src={Line} alt="vector"/>
             <div className="Footer-description">
                 <br/>
@@ -40,6 +45,8 @@ function Footer() {
                 <br/>
                 For inquiries, please contact Megan Ciraulo at <a href="mailto:mciraulo@ucmerced.edu">mciraulo@ucmerced.edu</a>
             </div>
+          </div>
+
         </div>
        
       </div>
